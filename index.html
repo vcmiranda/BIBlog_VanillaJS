@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_styles/main.css">
+    <title>B.I. BLOG</title>
+    <link rel="icon" href="_images/favicon.png" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="bodyPage">
+    <header class="mainHeader">
+        <div class="headerWrap">
+            <div class="navLogo">
+                <a href="index.html"><img src="_images/logo.png" alt="logo"></a>
+            </div>
+            <div class="navLogo-icon">
+                <img src="_images/icon-menu.png" alt="icon-menu" onclick="openNav()">
+            </div>
+            <nav id="navLinks">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bi.html">BI</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="mainBar">
+        <div class="mainBar-img">
+            <img src="_images/background.png" alt="background">
+        </div>
+        <div class="mainBar-txt">
+            <p class="mainBar-title">BUSINESS INTELLIGENCE</p>
+            <p class="mainBar-parag">Presentable data, helping business decisions!!!</p>
+            <a href="contact.html"><p class="mainBar-box" onclick="viewRes();">TALK TO US</p></a>
+        </div>
+    </div>
+    <main id="mainIndex">
+        <section class="artSecs">
+            <div class="artItens">
+                <a href="http://www.huffingtonpost.com/laiza-king-/how-business-intelligence_1_b_11207388.html" target="_blank"><img src="_images/_articles/article01.png" alt="article 1"/>
+                    <p class="artItens-title">How Business Intelligence Helps Small Businesses Make Better Decisions</p></a>
+                <p class="artItens-author">July 28, 2016 - <span>Laiza King</span></p>
+            </div>
+            <div class="artItens">
+                <a href="https://www.gooddata.com/blog/from-data-to-insights-to-action-how-smart-business-apps-are-closing-the-bi-loop" target="_blank"><img src="_images/_articles/article02.png" alt="article 2"/>
+                    <p class="artItens-title">From Data to Insights to Action: How Smart Business Apps Are Closing the BI Loop</p></a>
+                <p class="artItens-author">February 15, 2017 - <span>Sumeet Howe</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://www.networkworld.com/article/3179712/business-continuity/get-the-data-your-business-needs-without-paying-high-fees.html" target="_blank"><img src="_images/_articles/article03.png" alt="article 3"/>
+                    <p class="artItens-title">Get the data your business needs without paying high fees</p></a>
+                <p class="artItens-author">March 13, 2017 - <span>Ralph Tkatchuk</span></p>
+            </div>
+            <div class="artItens">
+                <a href="https://www.business.com/articles/business-decision-making-gut-instinct-or-hard-data/" target="_blank"><img src="_images/_articles/article09.png" alt="article 4"/>
+                    <p class="artItens-title">Business Decision-Making: Gut Instinct or Hard Data?</p></a>
+                <p class="artItens-author">February 22, 2017 - <span>Irma Hunkeler</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://www.dataversity.net/unravel-makes-big-data-applications-uncomplicated/" target="_blank"><img src="_images/_articles/article05.png" alt="article 5"/>
+                    <p class="artItens-title">Big Data Applications: Managing Complexity with Success</p></a>
+                <p class="artItens-author">March 15, 2017 - <span>Keith D. Foote</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://www.cmswire.com/information-management/how-analytics-and-bi-shaped-the-modern-organization/" target="_blank"><img src="_images/_articles/article06.png" alt="article 6"/>
+                    <p class="artItens-title">How Analytics and BI Shaped the Modern Organization</p></a>
+                <p class="artItens-author">December 16, 2016 - <span>José Villacis</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://einsights.com/3-things-to-consider-when-implementing-a-bi-solution/" target="_blank"><img src="_images/_articles/article07.png" alt="article 7"/>
+                    <p class="artItens-title">3 Things to Consider when Implementing a BI Solution</p></a>
+                <p class="artItens-author">November 13, 2015 - <span>Sandeep Rao</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://paristech.com/blog/throw-out-business-intelligence/" target="_blank"><img src="_images/_articles/article08.png" alt="article 8"/>
+                    <p class="artItens-title">How “Business Intelligence” is Failing you</p></a>
+                <p class="artItens-author">July 12, 2016 - <span>Lesley Burke</span></p>
+            </div>
+            <div class="artItens">
+                <a href="http://timoelliott.com/blog/analytics-cartoons" target="_blank"><img src="_images/_articles/article04.png" alt="article 9"/>
+                    <p class="artItens-title">Analytics Cartoons</p></a>
+                <p class="artItens-author">May 10, 2015 - <span>Timo Elliott</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerWrap">
+            <div class="footerLogo">
+                <img src="_images/logo_white.png" alt="logo">
+            </div>
+            <div class="footerTxt">
+                <p id="footerCop">Copyright &copy; 2017. All rights reserved. </p>
+                <p id="footerBrand">Branding by <a href="mailto:v_miranda@fanshaweonline.ca">Vitor Miranda</a>.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="_scripts/script.js"></script>
+</body>
+</html>

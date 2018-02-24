@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_styles/main.css">
+    <title>B.I. BLOG</title>
+    <link rel="icon" href="_images/favicon.png" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="bodyPage">
+    <header class="mainHeader">
+        <div class="headerWrap">
+            <div class="navLogo">
+                <a href="index.html"><img src="_images/logo.png" alt="logo"></a>
+            </div>
+            <div class="navLogo-icon">
+                <img src="_images/icon-menu.png" alt="icon-menu" onclick="openNav()">
+            </div>
+            <nav id="navLinks">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bi.html">BI</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="mainContact">
+        <div class="mainBar">
+            <div class="mainBar-img">
+                <img src="_images/background.png" alt="background">
+            </div>
+        </div>
+        <div id="contentContact">
+            <h1>Contact Us</h1>
+            <form method="get" autocomplete="on">
+                <div>
+                    <label class="icon-user"> Name
+                        <span class="required">*</span>
+                    </label>
+                    <input class="insTxtBox" type="text" name="username" id="username" required="required" placeholder="Your Name" />
+                </div>
+                <div>
+                    <label class="icon-envelope"> E-mail address
+                        <span class="required">*</span>
+                    </label>
+                    <input class="insTxtBox" type="email" name="usermail" id="usermail" placeholder="Your E-mail" required="required" />
+                </div>
+                <div>
+                    <label class="icon-link"> Website</label>
+                    <input class="insTxtBox" type="url" name="usersite" id="usersite" placeholder="eg: http://www.example.com" />
+                    </div>
+                <div>
+                    <label class="icon-bullhorn"> Subject</label>
+                    <input class="insTxtBox" type="text" name="subject" id="subject" placeholder="What would you like to talk about?" />
+                </div>
+                <div>
+                    <label class="icon-comment"> Message
+                        <span class="required">*</span>
+                    </label>
+                    <textarea placeholder="Your message here and I'll answer as soon as possible " required="required"></textarea>
+                </div>
+                <p class="indication">Fields with
+                    <span class="required"> * </span>are required</p>
+                <input id="sendButton" type="submit" value=" Send this mail ! " />
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footerWrap">
+            <div class="footerLogo">
+                <img src="_images/logo_white.png" alt="logo">
+            </div>
+            <div class="footerTxt">
+                <p id="footerCop">Copyright &copy; 2017. All rights reserved. </p>
+                <p id="footerBrand">Branding by <a href="mailto:v_miranda@fanshaweonline.ca">Vitor Miranda</a>.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="_scripts/script.js"></script>
+</body>
+</html>
+
+
